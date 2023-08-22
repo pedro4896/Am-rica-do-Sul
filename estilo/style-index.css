@@ -1,0 +1,66 @@
+/*Limpar formatações padrao*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1.2em;
+	font-family: georgia, Helvetica, "Trebuchet MS", sans-serif;
+	background: #050609;
+	font-weight: bold;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho{
+	background-color: #CED3DC;
+	padding: 15px;
+	text-align: center;	
+	width: 1080px;
+	margin: 10px auto;
+	position: relative;
+}
+
+#area-logo{
+	padding: 10px;
+}
+
+#area-imagem{
+	width: 1080px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #CED3DC;
+	text-align: center;
+}
+
+/*
+**** Formatacoes gerais ****
+*/
+
+h1{
+	color: #050609;
+	font-size: 3em;
+	text-shadow: 2px 2px 2px #050609;
+	text-transform: uppercase;
+}
+h2{
+	margin: 10px;
+}
+
+p{
+	padding: 10px;
+}
+
+img{
+	width: 1080px;
+}
+
+area{
+	outline: 1px solid black;
+}
+
+span{
+	color: #8C0007;
+}
